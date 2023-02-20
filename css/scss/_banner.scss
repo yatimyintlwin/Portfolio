@@ -1,0 +1,95 @@
+// Banner 1
+.banner {
+  height: 67rem;
+  @include flex(column, 0, center, center);
+  background: url(../../img/banner.png) no-repeat center;
+  background-size: cover;
+  text-transform: uppercase;
+}
+
+.banner-1 {
+  display: flex;
+  height: 50rem;
+}
+
+.banner-1 .banner-1-body {
+  flex-grow: 1;
+  @include flex(column, 0, center, start);
+
+  h1:nth-child(1) {
+    font-size: $title-font-size;
+    color: $primary-text-color;
+    font-weight: 700;
+    padding-left: 12rem;
+    margin-bottom: 1.5rem;
+  }
+
+  h1:nth-child(2) {
+    font-size: $sub-title-font-size;
+    color: $secondary-text-color;
+    font-weight: 500;
+  }
+}
+
+.banner-1 .banner-1-img {
+  flex-grow: 3;
+  @include flex(row, 0, end, center);
+
+  img {
+    width: 45rem;
+    height: auto;
+  }
+}
+
+// Banner 2
+.banner-2 {
+  display: flex;
+  height: 50rem;
+}
+
+.banner-2 .banner-2-img {
+  flex-grow: 1;
+  @include flex(row, 0, start, center);
+
+  img {
+    width: 37rem;
+    height: auto;
+  }
+}
+
+.banner-2 .banner-2-body {
+  flex-grow: 3;
+  @include flex(column, 0, center, start);
+
+  h1 {
+    font-size: $title-font-size;
+    text-transform: uppercase;
+    color: $primary-text-color;
+    font-weight: 700;
+    margin-bottom: 1rem;
+  }
+
+  h2 {
+    font-size: $font-size;
+    text-transform: uppercase;
+    color: $secondary-text-color;
+    font-weight: 400;
+    margin-bottom: 4rem;
+  }
+
+  p {
+    color: $primary-text-color;
+  }
+
+  .icons {
+    @include flex(row, 3rem, start, center);
+
+    i {
+      color: $brand-color;
+      font-size: 2.5rem;
+    }
+    i:hover {
+      color: $secondary-text-color;
+    }
+  }
+}
