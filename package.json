@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/yatimyintlwin/Portfolio#readme",
   "dependencies": {
+    "aos": "^2.3.4",
     "bootstrap": "^5.2.3",
     "sass": "^1.58.3"
   }

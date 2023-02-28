@@ -1,19 +1,9 @@
-// Nav
-nav {
-  background-color: $bg-color;
-  height: 6rem;
-}
-
-ul.nav {
-  @include flex(row, 30px, end, center);
+#menu ul li {
+  a {
+    font-weight: bold;
+  }
 
   a:hover {
     color: $secondary-text-color;
   }
-}
-
-ul.nav li a {
-  color: $primary-text-color;
-  font-size: $font-size;
-  font-weight: 400;
 }
