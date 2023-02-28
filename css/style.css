@@ -10860,6 +10860,10 @@ h2, .h2 {
   background-color: #222831;
 }
 
+.text-color {
+  color: #f2a365;
+}
+
 section {
   margin-top: 8rem;
   margin-bottom: 8rem;
@@ -10905,14 +10909,12 @@ section {
   align-items: start;
 }
 .banner-1 .banner-1-body h1:nth-child(1), .banner-1 .banner-1-body .h1:nth-child(1) {
-  font-size: 5rem;
   font-weight: 700;
   padding-left: 12rem;
   margin-bottom: 1.5rem;
 }
 .banner-1 .banner-1-body h1:nth-child(2), .banner-1 .banner-1-body .h1:nth-child(2) {
   font-size: 3rem;
-  color: #f2a365;
   font-weight: 500;
 }
 
@@ -10930,12 +10932,10 @@ section {
 }
 
 .banner-2 h1, .banner-2 .h1 {
-  font-size: 5rem;
   font-weight: 700;
 }
 .banner-2 h2, .banner-2 .h2 {
   font-size: 1.8rem;
-  color: #f2a365;
   font-weight: 400;
 }
 .banner-2 .icons {
@@ -10961,13 +10961,6 @@ section {
   align-items: center;
 }
 
-#services h1, #services .h1 {
-  font-size: 5rem;
-  color: #ececec;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 #services .services-card {
   background-color: #30475e;
   color: #f2a365;
@@ -10977,6 +10970,19 @@ section {
   height: 25rem;
   display: flex;
   flex-direction: column;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio-main button {
+  font-size: 1.5rem;
+  color: #f2a365;
+}
+
+.portfolio-body {
+  display: flex;
+  flex-direction: row;
   gap: 0;
   justify-content: center;
   align-items: center;

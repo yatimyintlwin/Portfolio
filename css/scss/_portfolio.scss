@@ -1,0 +1,8 @@
+.portfolio-main button {
+  font-size: 1.5rem;
+  color: $secondary-text-color;
+}
+
+.portfolio-body {
+  @include flex(row, 0, center, center);
+}

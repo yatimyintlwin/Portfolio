@@ -17,7 +17,6 @@
   @include flex(column, 0, center, start);
 
   h1:nth-child(1) {
-    font-size: $title-font-size;
     font-weight: 700;
     padding-left: 12rem;
     margin-bottom: 1.5rem;
@@ -25,7 +24,6 @@
 
   h1:nth-child(2) {
     font-size: $sub-title-font-size;
-    color: $secondary-text-color;
     font-weight: 500;
   }
 }
@@ -44,13 +42,11 @@
 
 .banner-2 {
   h1 {
-    font-size: $title-font-size;
     font-weight: 700;
   }
 
   h2 {
     font-size: $font-size;
-    color: $secondary-text-color;
     font-weight: 400;
   }
 

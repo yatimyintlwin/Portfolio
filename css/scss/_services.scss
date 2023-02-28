@@ -2,13 +2,6 @@
   @include flex(row, 0, center, center);
 }
 
-#services h1 {
-  font-size: $title-font-size;
-  color: $primary-text-color;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 #services .services-card {
   background-color: $brand-color;
   color: $secondary-text-color;
