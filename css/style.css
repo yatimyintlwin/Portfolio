@@ -10975,6 +10975,13 @@ section {
   align-items: center;
 }
 
+.skill-bar {
+  height: 1.4rem;
+}
+.skill-bar div {
+  background-color: #f2a365;
+}
+
 .portfolio-main button {
   font-size: 1.5rem;
   color: #f2a365;
@@ -10986,4 +10993,44 @@ section {
   gap: 0;
   justify-content: center;
   align-items: center;
+}
+
+#contact .contact-body {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact .contact-body .contact-icon {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  width: 8rem;
+  height: 8rem;
+  background-color: #30475e;
+  border-radius: 100%;
+}
+#contact .contact-body .contact-icon i {
+  font-size: 3rem;
+  color: #f2a365;
+}
+
+.footer {
+  display: flex;
+  flex-direction: row;
+  gap: 0;
+  justify-content: center;
+  align-items: center;
+  height: 10rem;
+  border-top: #30475e solid;
+}
+.footer .github-link {
+  color: #f2a365;
+}
+.footer .github-link:hover {
+  color: #1fd3f3;
 }/*# sourceMappingURL=style.css.map */

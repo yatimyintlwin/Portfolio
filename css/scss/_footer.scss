@@ -1,0 +1,14 @@
+.footer {
+  @include flex(row, 0, center, center);
+
+  height: 10rem;
+  border-top: $brand-color solid;
+
+  .github-link {
+    color: $secondary-text-color;
+  }
+
+  .github-link:hover {
+    color: #1fd3f3;
+  }
+}

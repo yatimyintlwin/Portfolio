@@ -1,0 +1,16 @@
+#contact .contact-body {
+  @include flex(row, 0, center, center);
+}
+
+#contact .contact-body .contact-icon {
+  @include flex(row, 0, center, center);
+  width: 8rem;
+  height: 8rem;
+  background-color: $brand-color;
+  border-radius: 100%;
+
+  i {
+    font-size: 3rem;
+    color: $secondary-text-color;
+  }
+}
