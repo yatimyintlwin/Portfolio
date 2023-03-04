@@ -11003,6 +11003,13 @@ section {
   align-items: center;
 }
 
+#contact .contact-form .contact-box {
+  font-size: 2rem;
+  border: 1px solid #f2a365;
+  background-color: transparent;
+  color: #ececec;
+}
+
 #contact .contact-body .contact-icon {
   display: flex;
   flex-direction: row;

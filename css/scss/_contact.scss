@@ -2,6 +2,13 @@
   @include flex(row, 0, center, center);
 }
 
+#contact .contact-form .contact-box {
+  font-size: 2rem;
+  border: 1px solid $secondary-text-color;
+  background-color: transparent;
+  color: $primary-text-color;
+}
+
 #contact .contact-body .contact-icon {
   @include flex(row, 0, center, center);
   width: 8rem;
