@@ -10906,16 +10906,17 @@ section {
   flex-direction: column;
   gap: 0;
   justify-content: center;
-  align-items: start;
+  align-items: center;
 }
 .banner-1 .banner-1-body h1:nth-child(1), .banner-1 .banner-1-body .h1:nth-child(1) {
   font-weight: 700;
-  padding-left: 12rem;
+  width: 100%;
   margin-bottom: 1.5rem;
 }
 .banner-1 .banner-1-body h1:nth-child(2), .banner-1 .banner-1-body .h1:nth-child(2) {
   font-size: 3rem;
   font-weight: 500;
+  width: 100%;
 }
 
 .banner-1 .banner-1-img {
@@ -10937,6 +10938,9 @@ section {
 .banner-2 h2, .banner-2 .h2 {
   font-size: 1.8rem;
   font-weight: 400;
+}
+.banner-2 p {
+  text-align: justify;
 }
 .banner-2 .icons {
   display: flex;
@@ -10982,7 +10986,7 @@ section {
   background-color: #f2a365;
 }
 
-.portfolio-main button {
+.portfolio-main a {
   font-size: 1.5rem;
   color: #f2a365;
 }
@@ -10993,6 +10997,12 @@ section {
   gap: 0;
   justify-content: center;
   align-items: center;
+}
+.portfolio-body .portfolio-logo {
+  display: inline;
+  padding: 1rem;
+  background-color: #30475e;
+  border-radius: 2rem;
 }
 
 #contact .contact-body {
@@ -11032,7 +11042,7 @@ section {
   gap: 0;
   justify-content: center;
   align-items: center;
-  height: 10rem;
+  height: 8rem;
   border-top: #30475e solid;
 }
 .footer .github-link {

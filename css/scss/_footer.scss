@@ -1,7 +1,7 @@
 .footer {
   @include flex(row, 0, center, center);
 
-  height: 10rem;
+  height: 8rem;
   border-top: $brand-color solid;
 
   .github-link {
